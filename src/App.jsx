@@ -1,13 +1,10 @@
-import Header from './Header'; 
-
+import Homepage from './pages/Homepage.jsx'
 
 export default function App() {
-  
 
   return (
-    <>
-      <Header></Header>
-
+    <> 
+       <Homepage></Homepage>
     </>
   )
 }
