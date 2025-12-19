@@ -31,7 +31,7 @@ export default function Homepage() {
           </p>
 
           <img
-            class="flex justify-self-center h-90 my-15"
+            class="flex justify-self-center h-110 my-15"
             src="src\assets\grad.svg"
           ></img>
         </div>
@@ -94,14 +94,19 @@ export default function Homepage() {
         </div>
       </div>
 
+
+
+
+
+
       <div>
         <h2 class="text-black font-['Archivo_Black'] text-center text-5xl mt-50">
           Learn, Understand, Practice.
         </h2>
 
-        <div class="flex justify-between mx-60 gap-45 my-21">
-          <div>
-            <img class="" src="src/assets/formula.svg"></img>
+        <div class="flex justify-between mx-70 gap-45 my-21">
+          <div class="border-3 border-transparent hover:border-black rounded-4xl p-6 transition-colors duration-250 hover:bg-amber-200">
+            <img class="ml-9 py-8 pr-16" src="src/assets/formula.svg"></img>
             <h2 class="font-['Archivo_Black'] text-center text-2xl">
               Smart Formulas
             </h2>
@@ -110,8 +115,8 @@ export default function Homepage() {
             </p>
           </div>
 
-          <div>
-            <img src="src/assets/guide.svg"></img>
+          <div class="border-3 border-transparent hover:border-black rounded-4xl p-6 transition-colors duration-250 hover:bg-amber-200">
+            <img class="ml-9 py-8 pr-16" src="src/assets/guide.svg"></img>
             <h2 class="font-['Archivo_Black'] text-center text-2xl">
               Usage Guides
             </h2>
@@ -120,8 +125,8 @@ export default function Homepage() {
             </p>
           </div>
 
-          <div>
-            <img src="src/assets/Quiz.svg"></img>
+          <div class="border-3 border-transparent hover:border-black rounded-4xl p-6 transition-colors duration-250 hover:bg-amber-200">
+            <img class="ml-9 py-8 pr-16" src="src/assets/Quiz.svg"></img>
             <h2 class="font-['Archivo_Black'] text-center text-2xl">
               Interactive Quizzes
             </h2>
@@ -131,6 +136,13 @@ export default function Homepage() {
           </div>
         </div>
       </div>
+
+
+
+
+
+
+
 
 
       <div class="bg-[#ffffff] grow text-[#000000]">
