@@ -1,0 +1,2 @@
+1. Ubah cardnya , jangan berwarna aja pas di hover, tapi dibuat nimbul kaya bagian poin poin , kasih shadow juga biar keliatan 3d
+2. Langsung bikin page selanjutnya , gapake lama di homepage njir

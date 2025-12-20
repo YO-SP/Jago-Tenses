@@ -137,14 +137,6 @@ export default function Homepage() {
         </div>
       </div>
 
-
-
-
-
-
-
-
-
       <div class="bg-[#ffffff] grow text-[#000000]">
         <div class="flex flex-col">
           <div class="text-black font-['Archivo_Black'] text-center text-5xl pt-25">
@@ -205,15 +197,12 @@ export default function Homepage() {
       <div class="flex justify-center mt-35">
         <img src="src/assets/journey.svg"></img>
         <div class="flex flex-col mt-30">
-          <h1 class="text-2xl">Ready to start your journey with tenses?</h1>
+          <h1 class="text-3xl">Ready to start your journey with tenses?</h1>
           <button class="transition duration-200 ease-in-out transform hover:scale-110 hover:bg-black bg-black text-white font-bold py-2 px-4 rounded-full self-center mt-9">
             Start Your Journey
           </button>
         </div>
       </div>
-
-
-       
       <Footer></Footer>
     </div>
   );
