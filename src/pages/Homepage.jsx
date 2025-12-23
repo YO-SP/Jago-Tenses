@@ -46,7 +46,7 @@ export default function Homepage() {
           <div class="flex justify-center">
             <div class="flex flex-col">
               <div class="flex mt-20">
-                <div class="inline-flex items-center bg-amber-200 px-8 py-6 rounded-xl transition duration-200 ease-in-out transform hover:scale-105">
+                <div class="w-full inline-flex items-center bg-amber-200 px-8 py-6 rounded-xl transition duration-200 ease-in-out transform hover:scale-105">
                   <img class="w-15 h-15" src="src/assets/one.svg" />
 
                   <div class="ml-10">
@@ -61,7 +61,7 @@ export default function Homepage() {
               </div>
 
               <div class="flex mt-15 ">
-                <div class="inline-flex items-center bg-amber-200 px-8 py-6 rounded-xl transition duration-200 ease-in-out transform hover:scale-105">
+                <div class="w-full inline-flex items-center bg-amber-200 px-8 py-6 rounded-xl transition duration-200 ease-in-out transform hover:scale-105">
                   <img class="w-15 h-15" src="src/assets/two.svg" />
 
                   <div class="ml-10">
@@ -76,7 +76,7 @@ export default function Homepage() {
               </div>
 
               <div class="flex mt-15">
-                <div class="inline-flex items-center bg-amber-200 px-8 py-6 rounded-xl transition duration-200 ease-in-out transform hover:scale-105">
+                <div class="w-full inline-flex items-center bg-amber-200 px-8 py-6 rounded-xl transition duration-200 ease-in-out transform hover:scale-105">
                   <img class="w-15 h-15" src="src/assets/three.svg" />
 
                   <div class="ml-10">
@@ -94,18 +94,13 @@ export default function Homepage() {
         </div>
       </div>
 
-
-
-
-
-
       <div>
         <h2 class="text-black font-['Archivo_Black'] text-center text-5xl mt-50">
           Learn, Understand, Practice.
         </h2>
 
-        <div class="flex justify-between mx-70 gap-45 my-21">
-          <div class="border-3 border-transparent hover:border-black rounded-4xl p-6 transition-colors duration-250 hover:bg-amber-200">
+        <div class="flex justify-between mx-70 gap-20 my-21">
+          <div class="p-5 border-2 border-black rounded-3xl transition duration-190 ease-in-out transform hover:scale-105 hover:bg-amber-200 shadow-xl hover:shadow-xl/60">
             <img class="ml-9 py-8 pr-16" src="src/assets/formula.svg"></img>
             <h2 class="font-['Archivo_Black'] text-center text-2xl">
               Smart Formulas
@@ -115,7 +110,7 @@ export default function Homepage() {
             </p>
           </div>
 
-          <div class="border-3 border-transparent hover:border-black rounded-4xl p-6 transition-colors duration-250 hover:bg-amber-200">
+          <div class="p-5 border-2 border-black rounded-3xl transition duration-190 ease-in-out transform hover:scale-105 hover:bg-amber-200 shadow-xl hover:shadow-xl/60">
             <img class="ml-9 py-8 pr-16" src="src/assets/guide.svg"></img>
             <h2 class="font-['Archivo_Black'] text-center text-2xl">
               Usage Guides
@@ -125,7 +120,7 @@ export default function Homepage() {
             </p>
           </div>
 
-          <div class="border-3 border-transparent hover:border-black rounded-4xl p-6 transition-colors duration-250 hover:bg-amber-200">
+          <div class="p-5 border-2 border-black rounded-3xl transition duration-190 ease-in-out transform hover:scale-105 hover:bg-amber-200 shadow-xl hover:shadow-xl/60">
             <img class="ml-9 py-8 pr-16" src="src/assets/Quiz.svg"></img>
             <h2 class="font-['Archivo_Black'] text-center text-2xl">
               Interactive Quizzes
@@ -146,7 +141,7 @@ export default function Homepage() {
           <div class="flex justify-center">
             <div class="flex flex-col">
               <div class="flex mt-20 ml-7 transition duration-200 ease-in-out transform hover:scale-105">
-                <div class="inline-flex items-center bg-amber-200 px-8 py-6 rounded-xl">
+                <div class="w-full inline-flex items-center bg-amber-200 px-8 py-6 rounded-xl">
                   <img class="w-15 h-15" src="src/assets/one.svg" />
 
                   <div class="ml-10">
@@ -161,7 +156,7 @@ export default function Homepage() {
               </div>
 
               <div class="flex mt-15 ml-7 transition duration-200 ease-in-out transform hover:scale-105">
-                <div class="inline-flex items-center bg-amber-200 px-8 py-6 rounded-xl">
+                <div class="w-full inline-flex items-center bg-amber-200 px-8 py-6 rounded-xl">
                   <img class="w-15 h-15" src="src/assets/two.svg" />
 
                   <div class="ml-10">
@@ -176,7 +171,7 @@ export default function Homepage() {
               </div>
 
               <div class="flex mt-15 ml-7 transition duration-200 ease-in-out transform hover:scale-105">
-                <div class="inline-flex items-center bg-amber-200 px-8 py-6 rounded-xl">
+                <div class="w-full inline-flex items-center bg-amber-200 px-8 py-6 rounded-xl">
                   <img class="w-15 h-15" src="src/assets/three.svg" />
 
                   <div class="ml-10">
