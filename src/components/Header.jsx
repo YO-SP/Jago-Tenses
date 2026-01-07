@@ -1,19 +1,37 @@
-import { Link } from 'react-router-dom'; 
+import { NavLink, Link } from 'react-router-dom'; 
 
-export default function Header(){
+export default function Header() {
+    
+    const navLinkStyle = ({ isActive }) => 
+        `px-3 py-2 rounded-full duration-100 ${
+            isActive 
+            ? 'bg-black text-white' 
+            : 'hover:bg-black hover:text-white text-black'
+        }`;
 
-    return(
+    return (
         <>  
-            <div class="flex bg-[#ffffff] p-4 justify-between w-full h-full">
-                <Link to="/"><div class="text-black text-2xl font-medium px-3 py-2">JAGOTENSES</div></Link>
-                <nav class="flex gap-4 text-black text-xl font-medium">
-                    <Link to="/lessons"><div class="px-3 py-2 hover:bg-black hover:text-white rounded-full duration-100">Lessons</div></Link>
-                    <Link to="/about"><div class="px-3 py-2 hover:bg-black hover:text-white rounded-full duration-100">About me</div></Link>
-                    <Link to="/contact"><div class="px-3 py-2 hover:bg-black hover:text-white rounded-full duration-100">Contact</div></Link>
+            <div className="flex bg-[#ffffff] p-4 justify-between w-full h-full">
+                <Link to="/">
+                    <div className="text-black text-2xl font-medium px-3 py-2">JAGOTENSES</div>
+                </Link>
+                
+                <nav className="flex gap-4 text-xl font-medium">
+                    <NavLink to="/lessons" className={navLinkStyle}>
+                        Lessons
+                    </NavLink>
+                    
+                    <NavLink to="/about" className={navLinkStyle}>
+                        About me
+                    </NavLink>
+                    
+                    <NavLink to="/contact" className={navLinkStyle}>
+                        Contact
+                    </NavLink>
                 </nav>
             </div>
 
-            <hr class="border-2 border-gray-300 "></hr>
+            <hr className="border-t-2 border-gray-300" />
         </>
-    )
+    );
 }

@@ -5,7 +5,19 @@ export default function Lessons(){
     return(
         <>
         <Header></Header>
+
+
+
+
         <h1>ini halaman Lessons</h1>
+
+
+
+
+
+
+
+        
         <Footer></Footer>
         </>
     )
