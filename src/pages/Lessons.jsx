@@ -15,7 +15,7 @@ export default function Lessons(){
           {tenses.map((tense) => (
             <Link key={tense.id} to={`/lessons/${tense.id}`}>
               <div className="border border-black rounded-xl p-6 hover:bg-amber-200 hover:text-black duration-200">
-                <h2 className="font-['Archivo_Black'] text-xl">
+                <h2 className="font-['Archivo_Black'] text-xl text-center">
                   {tense.title}
                 </h2>
                 <p className="mt-2">{tense.description}</p>
