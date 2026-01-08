@@ -8,7 +8,7 @@ export default function Lessons(){
         <>
         <Header></Header>
 
-        <h1 class="text-black font-['Archivo_Black'] text-center text-5xl mt-15 mb-20">What do you want to learn today?</h1>        
+        <h1 class="text-black font-['Archivo_Black'] text-center text-5xl mt-20 mb-20">What do you want to learn today?</h1>        
 
         <div className="flex justify-center mt-12">
         <div className="grid grid-cols-4 gap-6">

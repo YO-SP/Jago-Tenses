@@ -2,7 +2,7 @@ export const tenses = [
     {
         id: "present-simple", 
         title: "Present Simple", 
-        description: "Aku suka kamu"
+        material: ""
     },
 
     {
