@@ -8,7 +8,7 @@ export default function Homepage() {
 
       <div class="bg-[#ffffff] grow text-[#000000]">
         <div class="flex flex-col">
-          <div class="text-black font-['Archivo_Black'] text-center text-5xl mt-15">
+          <div class="text-black font-['Archivo_Black'] text-center text-5xl mt-20">
             <h1>Say Goodbye to Complicated Formulas.</h1>
             <h1>Tenses Simplified for Everyone.</h1>
           </div>

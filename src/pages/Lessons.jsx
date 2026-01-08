@@ -1,7 +1,7 @@
 import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
 import { Link } from 'react-router-dom'; 
-import { tenses } from '../data/tenses.js'; 
+import { tenses } from '../data/tenses.js';
 
 export default function Lessons(){
     return(

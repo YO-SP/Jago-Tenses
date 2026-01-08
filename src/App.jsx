@@ -19,6 +19,6 @@ export default function App() {
           <Route path="/lessons/:tenseId" element={<LessonDetail />}/>
       </Routes>
     </BrowserRouter>
-  )
+  ) 
 }
 

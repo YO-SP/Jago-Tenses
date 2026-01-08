@@ -2,7 +2,19 @@ export const tenses = [
     {
         id: "present-simple", 
         title: "Present Simple", 
-        material: ""
+        definition: "The Present Simple is a verb tense used to describe actions that are constant, habitual, or factual.", 
+        usage: [
+            "Habits and Routines",
+            "General Truths and Facts", 
+            "Permanent Situations", 
+            "Schedules/Timetables", 
+            "Common Time Signals"
+        ], 
+        formula: {
+            positive: "Subject + Verb 1 (s/es for He/She/It) + Object", 
+            negative: "Subject + Do/Does + Not + Verb 1 + Object", 
+            Interrogative: "Do/Does + Subject + Verb 1 + Object?"
+        }
     },
 
     {

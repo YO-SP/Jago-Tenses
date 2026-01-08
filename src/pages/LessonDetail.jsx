@@ -1,5 +1,8 @@
+import Header from "../components/Header.jsx";
+import Footer from "../components/Footer.jsx";
 import { useParams } from "react-router-dom";
 import { tenses } from "../data/tenses";
+import TenseCard from '../components/TenseCard.jsx'; 
 
 export default function LessonDetail() {
   const { tenseId } = useParams();
@@ -9,12 +12,18 @@ export default function LessonDetail() {
   if (!tense) {
     return <p>Tense not found</p>;
   }
-
   return (
-    <div>
-      <h1>{tense.title}</h1>
-      <h1>{tenses.material}</h1>
-      
-    </div>
+    <>
+      <Header></Header>
+
+        <TenseCard
+          title={tense.title}
+          definition={tense.definition}
+          usage={tense.usage}
+          formula={tense.formula}
+        />
+      <Footer></Footer>
+
+    </> 
   );
 }
