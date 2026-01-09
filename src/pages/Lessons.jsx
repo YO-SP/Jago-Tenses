@@ -16,6 +16,8 @@ export default function Lessons() {
         What do you want to learn today?
       </h1>
 
+      <p className="text-center text-2xl mt-20 mb-10">Select a tense category (Past, Present, or Future) to view the lessons.</p>
+
       <div className="flex justify-center gap-12 mb-10 items-start min-h-105">
         {times.map((time) => {
           const isOpen = openTime === time;
