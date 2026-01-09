@@ -1,8 +1,9 @@
-export default function TenseCard({title, definition, usage, formula}){
+export default function TenseCard({title, definition, usage, formula, example}){
     return(
         <>
             <div className="mt-30">
 
+               
                 <h1 className="text-black font-['Archivo_Black'] text-center text-5xl mt-20 mb-20">{title}</h1>
 
                 <div className="max-w-3xl mx-auto mt-16 p-8 border rounded-3xl bg-amber-200 transition duration-200 ease-in-out transform hover:scale-102 shadow-xl hover:shadow-xl/60">
@@ -32,6 +33,15 @@ export default function TenseCard({title, definition, usage, formula}){
                         <li><b>Negative : </b>{formula.negative}</li>
                         <li><b>Interrogative : </b>{formula.interrogative}</li>
 
+                    </ul>
+                </div>
+
+                  <div className="max-w-3xl mx-auto mt-16 p-8 border rounded-3xl bg-amber-200 transition duration-200 ease-in-out transform hover:scale-102 shadow-xl hover:shadow-xl/60">
+                    <h2 className="inline-block bg-black text-white px-5 py-1 rounded-full text-2xl">Example</h2>
+                    <ul className="list-disc list-inside space-y-2 text-xl mt-4">
+                        <li><b>Positive : </b> {example.positive}</li>
+                        <li><b>Negative : </b>{example.negative}</li>
+                        <li><b>Interrogative : </b>{example.interrogative}</li>
                     </ul>
                 </div>
             </div>

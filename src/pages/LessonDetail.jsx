@@ -20,6 +20,7 @@ export default function LessonDetail() {
           definition={tense.definition}
           usage={tense.usage}
           formula={tense.formula}
+          example={tense.example}
         />
       <Footer></Footer>
 

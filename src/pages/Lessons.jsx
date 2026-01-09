@@ -23,7 +23,7 @@ export default function Lessons() {
           return (
             <div
               key={time}
-              className="bg-black text-white rounded-xl px-10 py-6 w-72"
+              className="bg-amber-200 text-black rounded-xl px-3 py-2 w-80 border border-transparent hover:border-black hover:border-2"
             >
               <button
                 onClick={() => setOpenTime(isOpen ? null : time)}
@@ -49,7 +49,7 @@ export default function Lessons() {
                     .map((t) => (
 
                   
-                  <div className="py-2 border-b border-white/20 last:border-b-0 text-lg cursor-pointer hover:opacity-80">
+                  <div className="py-2 text-center border border-black  text-lg cursor-pointer hover:opacity-80 hover:bg-black hover:text-yellow-200 px-2 rounded-xl">
                     <Link key={t.id} to={`/lessons/${t.id}`}>
                       {t.title}
                     </Link>
