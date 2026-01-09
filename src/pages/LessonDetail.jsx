@@ -15,7 +15,6 @@ export default function LessonDetail() {
   return (
     <>
       <Header></Header>
-
         <TenseCard
           title={tense.title}
           definition={tense.definition}

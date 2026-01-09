@@ -1,6 +1,7 @@
 export const tenses = [
     {
         id: "present-simple",
+        time: "present", 
         title: "Present Simple",
         definition: "The Present Simple is the most basic tense in English. Its main job is to talk about things that are generally true, things that happen over and over again, and things that are set in stone. Instead of talking about what is happening at this exact second, it focuses on facts, daily life, and permanent situations.",
         usage: [
@@ -19,6 +20,7 @@ export const tenses = [
 
     {
         id: "present-continuous",
+        time: "present", 
         title: "Present Continuous",
         definition: "The Present Continuous tense is used to talk about actions that are happening right now or around the present time. It emphasizes temporary situations and actions that are still in progress.",
         usage: [
@@ -37,6 +39,7 @@ export const tenses = [
 
     {
         id: "past-simple",
+        time: "past", 
         title: "Past Simple",
         definition: "The Past Simple tense is used to talk about actions or situations that happened and finished at a specific time in the past.",
         usage: [
@@ -55,6 +58,7 @@ export const tenses = [
 
     {
         id: "past-continuous",
+        time: "past", 
         title: "Past Continuous",
         definition: "The Past Continuous tense is used to describe actions that were in progress at a specific moment in the past.",
         usage: [
@@ -72,6 +76,7 @@ export const tenses = [
 
     {
         id: "present-perfect",
+        time: "present", 
         title: "Present Perfect",
         definition: "The Present Perfect tense connects the past with the present. It is used to talk about experiences or actions that happened at an unspecified time before now.",
         usage: [
@@ -89,6 +94,7 @@ export const tenses = [
 
     {
         id: "present-perfect-continuous",
+        time: "present", 
         title: "Present Perfect Continuous",
         definition: "The Present Perfect Continuous tense is used to emphasize the duration of an action that started in the past and is still continuing or has recently stopped.",
         usage: [
@@ -105,6 +111,7 @@ export const tenses = [
 
     {
         id: "past-perfect-continuous",
+        time: "past", 
         title: "Past Perfect Continuous",
         definition: "The Past Perfect Continuous tense is used to show that an action was ongoing for a period of time before another action in the past occurred.",
         usage: [
@@ -121,6 +128,7 @@ export const tenses = [
 
     {
     id: "future-simple",
+    time: "future", 
     title: "Future Simple",
     definition: "The Future Simple tense is used to talk about actions or events that will happen in the future. It is often used for decisions made at the moment of speaking, predictions, promises, and offers.",
     usage: [
@@ -138,6 +146,7 @@ export const tenses = [
 
 {
     id: "future-going-to",
+    time: "future", 
     title: "Future (Going To)",
     definition: "The Going To future tense is used to talk about plans or intentions that have already been decided before the moment of speaking, as well as predictions based on present evidence.",
     usage: [
@@ -154,6 +163,7 @@ export const tenses = [
 
 {
     id: "future-continuous",
+    time: "future", 
     title: "Future Continuous",
     definition: "The Future Continuous tense is used to describe actions that will be in progress at a specific time in the future.",
     usage: [
@@ -170,6 +180,7 @@ export const tenses = [
 
 {
     id: "future-perfect",
+    time: "future", 
     title: "Future Perfect",
     definition: "The Future Perfect tense is used to talk about actions that will be completed before a specific time or event in the future.",
     usage: [
@@ -186,6 +197,7 @@ export const tenses = [
 
 {
     id: "future-perfect-continuous",
+    time: "future", 
     title: "Future Perfect Continuous",
     definition: "The Future Perfect Continuous tense is used to emphasize the duration of an action that will continue up to a certain point in the future.",
     usage: [
