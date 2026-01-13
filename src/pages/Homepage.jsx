@@ -47,7 +47,7 @@ export default function Homepage() {
             <div class="flex flex-col">
               <div class="flex mt-20">
                 <div class="w-full inline-flex items-center bg-amber-200 px-8 py-6 rounded-xl transition duration-200 ease-in-out transform hover:scale-105">
-                  <img class="w-15 h-15" src="src/assets/one.svg" />
+                  <img class="w-16 h-16" src="src/assets/one.svg" />
 
                   <div class="ml-10">
                     <h2 class="font-['Archivo_Black'] text-2xl">
