@@ -11,7 +11,7 @@ export default function TenseCard({title, definition, usage, formula, example}){
                     
 
                     <Link to="/lessons" className="text-black text-2xl font-medium">
-                        <img src={leftArrow} alt="back" className="w-12 h-12 cursor-pointer hover:opacity-70 transition-opacity absolute left-1/2 -translate-x-100"></img>
+                        <img src={leftArrow} alt="back" className="w-12 h-12 cursor-pointer hover:opacity-70 transition-opacity absolute left-1/2 -translate-x-110"></img>
                     </Link>
 
                     <h1 className="text-black font-['Archivo_Black'] text-5xl text-center">{title}</h1>

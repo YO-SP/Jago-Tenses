@@ -23,7 +23,6 @@ export default function LessonDetail() {
           example={tense.example}
         />
       <Footer></Footer>
-
     </> 
   );
 }
